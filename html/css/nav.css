@@ -68,3 +68,40 @@
     width: 6rem;
     height: 6rem;
 }
+.dropbtn {
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: color 0.8s ease-in-out;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 1.78rem;
+  }
+  
+  .dropdown-content a {
+    color: black;   
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
